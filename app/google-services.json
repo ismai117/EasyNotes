@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "709679238536",
+    "project_id": "mynotesapp-835dc",
+    "storage_bucket": "mynotesapp-835dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709679238536:android:851fbf43b52931646bbe3d",
+        "android_client_info": {
+          "package_name": "com.easynotes.mynotesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709679238536-ldg8it7a2f0blbhkvmi596dptk0gch03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpv03Iq6ddwVbDBv0B2fOdC_WAAB_vQfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709679238536-ldg8it7a2f0blbhkvmi596dptk0gch03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

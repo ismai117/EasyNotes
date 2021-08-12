@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#F6F6F6"
+    tools:context=".views.fragments.ViewNotes_Fragment"
+    android:focusable="true">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/rightbtn_background"
+            android:textStyle="bold"
+            android:layout_margin="15dp"
+            android:textSize="12sp"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:id="@+id/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/titles"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/titleInput"
+            android:layout_below="@id/back"/>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@id/titleInput"
+            android:id="@+id/notes_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/notes"
+            android:textSize="16sp"
+            android:id="@+id/notesInput"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
